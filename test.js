@@ -17,3 +17,6 @@ const Between = (props) => {
 const Center = (props) => {
   return (<div style={{width:"100%",display:"flex",justifyContent:"center",border:"1px solid grey"}}>{props.children}</div>)
 }
+const Type = (props) {
+  return <p style={{fontSize:props.fs}}>{props.children}</p>
+}
